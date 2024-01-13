@@ -10,18 +10,18 @@ def calculate_bill(items):
         item_total = price * quantity
         total += item_total
 
-        print("{:<15} ${:<10.2f} {:<10} ${:<10.2f}".format(item, price, quantity, item_total))
+        print("{:<15} ₹{:<10.2f} {:<10} ₹{:<10.2f}".format(item, price, quantity, item_total))
 
-    print("\nTotal Bill: ${:.2f}\n".format(total))
+    print("\nTotal Bill: ₹{:.2f}\n".format(total))
 
 
 def main():
     items = {}
 
     while True:
-        item_name = input("Enter item name (or 'done' to finish): ").strip().lower()
+        item_name = input("Enter item name (or '' to finish): ").strip().lower()
 
-        if item_name == 'done':
+        if item_name == '':
             break
 
         price = float(input("Enter the price per unit: "))
