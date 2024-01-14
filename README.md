@@ -17,3 +17,4 @@ This is a simple Tkinter-based GUI application for a shopping bill calculator. T
    - You can add as many items as needed before calculating the bill.
 
 
+![image](https://github.com/Praneet005/ShoppingBill/assets/121420706/de4a8623-32cc-4837-8404-9fbe532f8803)
